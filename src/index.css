@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-[#0F1115] text-slate-200 antialiased;
+  }
+}
+
+.glass-card {
+  @apply bg-[#1A1D23]/80 backdrop-blur-xl border border-white/5 shadow-2xl;
+}
+
+.industrial-gradient {
+  @apply bg-gradient-to-br from-blue-600 to-indigo-700;
+}
+
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1.5rem;
+}
+

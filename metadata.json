@@ -1,0 +1,7 @@
+{
+  "name": "ManteniPro - Gestión de Mantenimiento Simple",
+  "description": "Sistema moderno de gestión de mantenimiento para pequeñas empresas conectado a Google Sheets.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
